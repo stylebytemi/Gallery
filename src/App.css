@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.carousel{
+  width: 60%;
+  height: 700px;
+  background-color: aqua;
+}
+
+.carousel-inner{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  
+}
+
+.carousel-inner .left{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: grid;
+  place-content: center;
+}
+.carousel-inner .center{
+  flex: 90%;
+  height: 100%;
+  /* background-color: rgba(0,0,0,0.6); */
+  display: grid;
+  place-content: center;
+  color: white;
+  cursor: pointer;
+
+}
+.carousel-inner .right{
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: grid;
+  place-content: center;
+
+}
+h2{
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
